@@ -521,7 +521,7 @@ const socials = [
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
+  "Social Media",
   500,
   "Criamos identidades visuais únicas",
   500,
