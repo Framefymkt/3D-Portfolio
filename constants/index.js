@@ -523,15 +523,15 @@ const socials = [
 const heroTexts = [
   "React/Next.js developer",
   500,
-  "Freelancer",
+  "Criamos identidades visuais únicas",
   500,
-  "Full-Stack developer",
+  "Desenvolvemos personagens 3D",
   500,
-  "Frontend developer",
+  "Transformamos marcas em experiências",
   500,
-  "Backend developer",
+  "Design, criatividade e tecnologia",
   500,
-  "Problem solver",
+  "Inteligência artificial",
   500,
 ];
 
