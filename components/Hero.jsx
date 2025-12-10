@@ -24,10 +24,9 @@ function Hero({ loading, isMobile }) {
           whileInView={!loading && "show"}
           viewport={{ once: true, amount: 0.25 }}
         >
-          <h1 className={`heroHeadText`}>
-            Hi, I&apos;m{" "}
-            <span className="dark:text-five text-primary">Framefy</span>
-          </h1>
+          <h1 className={heroHeadText}>
+  Somos a <span className="text-primary">Framefy</span>
+</h1>
           <p className={`heroSubText mt-2 tracking-wide`}>
             <TypeAnimation
               sequence={heroTexts}
