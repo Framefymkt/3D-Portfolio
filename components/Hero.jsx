@@ -8,10 +8,10 @@ import { heroTexts } from "@/constants";
 function Hero({ loading, isMobile }) {
   return (
     <section
-      className={`relative w-full h-[100svh] md:max-h-[800px] max-h-[600px] mx-auto flex flex-col`}
+      className="relative w-full h-[100svh] md:max-h-[800px] max-h-[600px] mx-auto flex flex-col"
     >
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto paddingX flex flex-row items-start gap-5`}
+        className="absolute inset-0 top-[120px] max-w-7xl mx-auto paddingX flex flex-row items-start gap-5"
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-primary" />
@@ -24,11 +24,11 @@ function Hero({ loading, isMobile }) {
           whileInView={!loading && "show"}
           viewport={{ once: true, amount: 0.25 }}
         >
-          <h1 className={heroHeadText}>
+          <h1 className="heroHeadText">
             Somos a <span className="text-primary">Framefy</span>
           </h1>
 
-          <p className={`heroSubText mt-2 tracking-wide`}>
+          <p className="heroSubText mt-2 tracking-wide">
             <TypeAnimation
               sequence={heroTexts}
               wrapper="span"
