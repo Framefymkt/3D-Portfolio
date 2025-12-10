@@ -25,12 +25,12 @@ function Hero({ loading, isMobile }) {
           viewport={{ once: true, amount: 0.25 }}
         >
           <h1 className={heroHeadText}>
-  Somos a <span className="text-primary">Framefy</span>
-</h1>
+            Somos a <span className="text-primary">Framefy</span>
+          </h1>
+
           <p className={`heroSubText mt-2 tracking-wide`}>
             <TypeAnimation
               sequence={heroTexts}
-              // preRenderFirstString={true}
               wrapper="span"
               cursor={true}
               repeat={Infinity}
@@ -38,6 +38,7 @@ function Hero({ loading, isMobile }) {
           </p>
         </motion.div>
       </div>
+
       <motion.div
         variants={fadeIn("up", "spring")}
         initial="hidden"
@@ -52,9 +53,7 @@ function Hero({ loading, isMobile }) {
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-2 border-[#aaa6c3] flex justify-center items-start p-2">
             <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
+              animate={{ y: [0, 24, 0] }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
