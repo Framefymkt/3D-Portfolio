@@ -25,7 +25,7 @@ function Hero({ loading, isMobile }) {
           viewport={{ once: true, amount: 0.25 }}
         >
           <h1 className="heroHeadText">
-            Somos a <span className="text-primary">Framefy</span>
+            Somos a <span className="text-orange-400">Framefy</span>
           </h1>
 
           <p className="heroSubText mt-2 tracking-wide">
